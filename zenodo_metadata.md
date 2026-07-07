@@ -39,7 +39,7 @@ Creative Commons Attribution 4.0 International, if all included fields are Reboo
 ## Related Identifiers
 
 - Reboot Hub Data: https://reboot-hub.com/pages/reboot-hub-data
-- GitHub repository: add after publication.
+- GitHub repository: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 - Kaggle dataset: add after publication.
 - Hugging Face dataset: add after publication.
 
