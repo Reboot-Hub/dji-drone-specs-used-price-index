@@ -14,6 +14,7 @@ https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 
 - Kaggle: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
 - Hugging Face: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
+- Zenodo DOI: https://doi.org/10.5281/zenodo.21246533
 
 ## What This Covers
 
@@ -31,7 +32,7 @@ https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 
 ## Citation
 
-Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Q3 2026 baseline dataset. https://reboot-hub.com/pages/reboot-hub-data
+Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Q3 2026 baseline dataset. https://doi.org/10.5281/zenodo.21246533
 
 ## Non-Affiliation
 

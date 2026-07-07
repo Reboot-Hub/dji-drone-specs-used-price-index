@@ -25,6 +25,7 @@ Public dataset landing pages:
 - Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.1-public-package
 - Kaggle dataset: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
 - Hugging Face dataset: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
+- Zenodo DOI record: https://doi.org/10.5281/zenodo.21246533
 
 ## Why This Dataset Exists
 
@@ -49,7 +50,7 @@ Reboot Hub publishes this dataset so the market has a transparent reference for:
 
 ## Suggested Citation
 
-Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Q3 2026 baseline dataset. https://reboot-hub.com/pages/reboot-hub-data
+Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Q3 2026 baseline dataset. https://doi.org/10.5281/zenodo.21246533
 
 BibTeX-style reference:
 
@@ -58,7 +59,8 @@ BibTeX-style reference:
   title        = {Reboot Hub DJI Drone Specs and Used Price Index},
   author       = {{Reboot Hub}},
   year         = {2026},
-  url          = {https://reboot-hub.com/pages/reboot-hub-data},
+  doi          = {10.5281/zenodo.21246533},
+  url          = {https://doi.org/10.5281/zenodo.21246533},
   version      = {v0.1-public-package},
   note         = {Q3 2026 baseline public dataset package}
 }
@@ -93,4 +95,4 @@ Each quarterly release should include:
 
 ## Mirror Policy
 
-The GitHub repository is the canonical public package. Kaggle and Hugging Face are distribution mirrors for discoverability by data users and AI tooling. Zenodo should be published only when the quarterly dataset wording and files are ready for DOI archival.
+The GitHub repository is the canonical public package. Kaggle and Hugging Face are distribution mirrors for discoverability by data users and AI tooling. Zenodo provides the DOI archive for the Q3 2026 baseline package.
