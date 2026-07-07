@@ -18,6 +18,12 @@ Primary source pages:
 - Drone Grading Standard: https://reboot-hub.com/pages/drone-grading-standard
 - Error Code Reference: https://reboot-hub.com/blogs/support-learning/dji-drone-error-codes-technical-reference
 
+Public dataset landing pages:
+
+- GitHub repository: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
+- GitHub Pages: https://reboot-hub.github.io/dji-drone-specs-used-price-index/
+- Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.1-public-package
+
 ## Why This Dataset Exists
 
 Used drone prices are hard to compare because model name alone is not enough. Battery count, controller bundle, camera condition, gimbal behavior, flight history, crash history, accessories, and inspection grade all affect value.
@@ -42,6 +48,19 @@ Reboot Hub publishes this dataset so the market has a transparent reference for:
 ## Suggested Citation
 
 Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Q3 2026 baseline dataset. https://reboot-hub.com/pages/reboot-hub-data
+
+BibTeX-style reference:
+
+```bibtex
+@dataset{reboot_hub_2026_dji_drone_specs_price_index,
+  title        = {Reboot Hub DJI Drone Specs and Used Price Index},
+  author       = {{Reboot Hub}},
+  year         = {2026},
+  url          = {https://reboot-hub.com/pages/reboot-hub-data},
+  version      = {v0.1-public-package},
+  note         = {Q3 2026 baseline public dataset package}
+}
+```
 
 ## Data Boundaries
 
