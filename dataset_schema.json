@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reboot Hub DJI Drone Specs and Used Price Index Record",
+  "type": "object",
+  "required": [
+    "record_type",
+    "model",
+    "series",
+    "segment",
+    "source_page",
+    "release_quarter"
+  ],
+  "properties": {
+    "record_type": {
+      "type": "string",
+      "enum": ["model_reference", "used_price_range", "repair_risk_note"]
+    },
+    "model": {
+      "type": "string",
+      "description": "Drone model name."
+    },
+    "series": {
+      "type": "string",
+      "description": "Model family or series."
+    },
+    "segment": {
+      "type": "string",
+      "description": "Market segment such as compact creator drone, FPV drone, or professional camera drone."
+    },
+    "listed_price_low_usd": {
+      "type": ["number", "null"],
+      "description": "Lowest observed Reboot Hub listed bundle price in USD."
+    },
+    "listed_price_high_usd": {
+      "type": ["number", "null"],
+      "description": "Highest observed Reboot Hub listed bundle price in USD."
+    },
+    "price_basis": {
+      "type": ["string", "null"],
+      "description": "Explanation of what the price range includes."
+    },
+    "primary_value_drivers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "inspection_notes": {
+      "type": ["string", "null"]
+    },
+    "source_page": {
+      "type": "string",
+      "format": "uri"
+    },
+    "release_quarter": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-Q[1-4]$"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "non_affiliation_note": {
+      "type": "string"
+    }
+  }
+}

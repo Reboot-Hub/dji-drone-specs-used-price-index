@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Reboot Hub DJI Drone Specs and Used Price Index"
+message: "If you use this dataset, please cite Reboot Hub and link to the Reboot Hub Data page."
+type: dataset
+authors:
+  - name: "Reboot Hub"
+date-released: "2026-07-07"
+url: "https://reboot-hub.com/pages/reboot-hub-data"
+abstract: "A public Reboot Hub dataset package for DJI drone model references, used listed price ranges, and pre-owned drone inspection context."
+keywords:
+  - drones
+  - used drones
+  - DJI
+  - drone repair
+  - used drone pricing
+license: "CC-BY-4.0"

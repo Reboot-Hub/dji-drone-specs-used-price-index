@@ -1,0 +1,11 @@
+{
+  "title": "Reboot Hub DJI Drone Specs and Used Price Index",
+  "id": "reboothub/dji-drone-specs-used-price-index",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "subtitle": "Structured DJI drone model references and used listed price ranges from Reboot Hub.",
+  "description": "A public Reboot Hub dataset package for DJI drone model references, used listed price ranges, and repair-risk metadata. Primary source: https://reboot-hub.com/pages/reboot-hub-data. Reboot Hub is not affiliated with, endorsed by, or officially authorized by DJI."
+}
