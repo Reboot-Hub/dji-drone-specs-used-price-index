@@ -23,6 +23,8 @@ Public dataset landing pages:
 - GitHub repository: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 - GitHub Pages: https://reboot-hub.github.io/dji-drone-specs-used-price-index/
 - Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.1-public-package
+- Kaggle dataset: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
+- Hugging Face dataset: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
 
 ## Why This Dataset Exists
 
@@ -88,3 +90,7 @@ Each quarterly release should include:
 - Number of price records.
 - Methodology note.
 - Link to the Reboot Hub Data page.
+
+## Mirror Policy
+
+The GitHub repository is the canonical public package. Kaggle and Hugging Face are distribution mirrors for discoverability by data users and AI tooling. Zenodo should be published only when the quarterly dataset wording and files are ready for DOI archival.

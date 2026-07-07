@@ -10,6 +10,11 @@ https://reboot-hub.com/pages/reboot-hub-data
 
 https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 
+## Public Dataset Mirrors
+
+- Kaggle: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
+- Hugging Face: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
+
 ## What This Covers
 
 - Used DJI drone listed price ranges.
