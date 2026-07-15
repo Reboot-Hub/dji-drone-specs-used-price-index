@@ -1,0 +1,77 @@
+{
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+  "name": "reboot-hub-dji-drone-specs-used-price-index",
+  "id": "https://doi.org/10.5281/zenodo.21246533",
+  "title": "Reboot Hub DJI Drone Specs and Used Price Index: Q3 2026 Baseline",
+  "description": "A public baseline package of DJI drone model references, observed Reboot Hub used listed bundle price ranges, repair-risk context, and pre-owned inspection metadata. Listed ranges are not final sale prices.",
+  "homepage": "https://reboot-hub.com/pages/reboot-hub-data",
+  "version": "0.1.0",
+  "created": "2026-07-07T00:00:00Z",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "keywords": [
+    "dji",
+    "drones",
+    "used-drone-pricing",
+    "drone-repair",
+    "pre-owned-drone-inspection",
+    "drone-grading"
+  ],
+  "contributors": [
+    {
+      "title": "Reboot Hub",
+      "path": "https://reboot-hub.com/",
+      "roles": [
+        "creator",
+        "dataCurator",
+        "rightsHolder"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Reboot Hub Data",
+      "path": "https://reboot-hub.com/pages/reboot-hub-data",
+      "version": "2026-Q3"
+    },
+    {
+      "title": "Reboot Hub Drone Wiki",
+      "path": "https://reboot-hub.com/pages/drone-wiki"
+    },
+    {
+      "title": "Reboot Hub Drone Grading Standard",
+      "path": "https://reboot-hub.com/pages/drone-grading-standard"
+    }
+  ],
+  "resources": [
+    {
+      "name": "sample-records",
+      "path": "sample_records.jsonl",
+      "title": "Q3 2026 baseline sample records",
+      "description": "Example model, listed-price-range, and repair-risk records for the public package.",
+      "format": "jsonl",
+      "mediatype": "application/x-ndjson"
+    },
+    {
+      "name": "record-schema",
+      "path": "dataset_schema.json",
+      "title": "JSON Schema for dataset records",
+      "description": "JSON Schema Draft 2020-12 field definitions for records in this package.",
+      "format": "json",
+      "mediatype": "application/schema+json"
+    },
+    {
+      "name": "citation-metadata",
+      "path": "CITATION.cff",
+      "title": "Citation File Format metadata",
+      "description": "Citation metadata carrying the versioned Zenodo DOI.",
+      "format": "cff",
+      "mediatype": "application/x-yaml"
+    }
+  ]
+}

@@ -42,6 +42,7 @@ Reboot Hub publishes this dataset so the market has a transparent reference for:
 
 | File | Purpose |
 |---|---|
+| `datapackage.json` | Data Package v2 descriptor for machine-readable discovery and reuse. |
 | `dataset_schema.json` | Field definitions for dataset records. |
 | `sample_records.jsonl` | Example JSON Lines records for the public release format. |
 | `kaggle_dataset_metadata.json` | Metadata starter for Kaggle upload. |
@@ -96,3 +97,9 @@ Each quarterly release should include:
 ## Mirror Policy
 
 The GitHub repository is the canonical public package. Kaggle and Hugging Face are distribution mirrors for discoverability by data users and AI tooling. Zenodo provides the DOI archive for the Q3 2026 baseline package.
+
+## Independent Metadata Indexes
+
+- DataCite DOI metadata: https://commons.datacite.org/doi.org/10.5281/zenodo.21246533
+- OpenAlex dataset record: https://openalex.org/W7167590697
+- OpenAIRE dataset record: https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.21246533
