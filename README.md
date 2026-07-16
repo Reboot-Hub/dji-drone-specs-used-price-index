@@ -114,6 +114,7 @@ The GitHub repository is the canonical public package. Kaggle and Hugging Face a
 
 ## Independent Metadata Indexes
 
-- DataCite DOI metadata: https://commons.datacite.org/doi.org/10.5281/zenodo.21246533
-- OpenAlex dataset record: https://openalex.org/W7167590697
-- OpenAIRE dataset record: https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.21246533
+- DataCite v0.2.0 DOI metadata: https://api.datacite.org/dois/10.5281/zenodo.21387578
+- OpenAIRE v0.2.0 dataset record: https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.21387578
+- OpenAlex previous v0.1 dataset record: https://openalex.org/W7167590697
+- Wayback snapshot of the canonical methodology page: https://web.archive.org/web/20260716135700/https://reboot-hub.com/pages/reboot-hub-data
