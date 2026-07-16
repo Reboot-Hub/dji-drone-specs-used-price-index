@@ -29,6 +29,8 @@ Public dataset landing pages:
 - Zenodo concept DOI (latest version): https://doi.org/10.5281/zenodo.21246532
 - Exact v0.2.0 DOI: https://doi.org/10.5281/zenodo.21387578
 - Previous archived v0.1 DOI: https://doi.org/10.5281/zenodo.21246533
+- Reproducible Q3 analysis notebook: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/notebooks/q3-2026-listed-price-range-analysis.ipynb
+- Jupyter nbviewer rendering: https://nbviewer.org/github/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/notebooks/q3-2026-listed-price-range-analysis.ipynb
 
 ## Why This Dataset Exists
 
@@ -51,6 +53,7 @@ Reboot Hub publishes this dataset so the market has a transparent reference for:
 | `model_price_summary_schema.json` | Field definitions for the complete model-level aggregate table. |
 | `sample_records.jsonl` | Four illustrative records with richer repair-risk context; not a complete table. |
 | `dataset_schema.json` | Field definitions for the illustrative repair-risk records. |
+| `notebooks/q3-2026-listed-price-range-analysis.ipynb` | Executed, reproducible interpretation of model coverage and listed-price ranges with explicit evidence boundaries. |
 | `RELEASE_MANIFEST.json` | Version, DOI, row-count boundary, byte sizes, and SHA-256 checksums for every archived source file. |
 | `kaggle_dataset_metadata.json` | Metadata starter for Kaggle upload. |
 | `huggingface_dataset_card.md` | Hugging Face dataset card / README draft. |
