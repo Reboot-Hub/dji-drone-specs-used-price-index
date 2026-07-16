@@ -30,7 +30,6 @@ Public dataset landing pages:
 - Exact v0.2.0 DOI: https://doi.org/10.5281/zenodo.21387578
 - Previous archived v0.1 DOI: https://doi.org/10.5281/zenodo.21246533
 - Reproducible Q3 analysis notebook: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/notebooks/q3-2026-listed-price-range-analysis.ipynb
-- Jupyter nbviewer rendering: https://nbviewer.org/github/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/notebooks/q3-2026-listed-price-range-analysis.ipynb
 
 ## Why This Dataset Exists
 
