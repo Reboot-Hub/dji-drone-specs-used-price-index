@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "dataset": "Reboot Hub DJI Drone Specs and Used Price Index: Q3 2026 Baseline",
+  "version": "0.2.0",
+  "release_date": "2026-07-16",
+  "generated_at": "2026-07-16T10:11:43.817891+00:00",
+  "concept_doi": "10.5281/zenodo.21246532",
+  "exact_version_doi": "10.5281/zenodo.21387578",
+  "public_grain": "one row per aircraft model-level aggregate",
+  "model_aggregate_count": 43,
+  "underlying_listed_configuration_count": 251,
+  "underlying_configuration_rows_distributed": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6259,
+      "sha256": "0b7a8c8281fdfb9aa6cb9560e8603342912c0952141aed9a7283fca72a853204"
+    },
+    {
+      "path": "index.md",
+      "bytes": 5427,
+      "sha256": "d7ab21b6be7304f36da592ca45481e49e76f191821f0bc1fec608e09ccade609"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 862,
+      "sha256": "d1ac0943ebf2e08f51a37b52f5bdbb8ca2bc44bf7efd4a750d6604c0fb7d481e"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 472,
+      "sha256": "f53ed0d2f7aa2e4427232a9f930a7d2d30a3965948dda68802197526ff59ba5e"
+    },
+    {
+      "path": "datapackage.json",
+      "bytes": 6144,
+      "sha256": "cc3b1cca93aa782a2129333687e60627194aaf76aa7e2002bc94c02ba90f0901"
+    },
+    {
+      "path": "model_price_summary_2026_q3.csv",
+      "bytes": 19136,
+      "sha256": "420feaefd5c6b58e0ca339fad323b31f5441dc2a12305ac3de451a8acafa6aa0"
+    },
+    {
+      "path": "model_price_summary_2026_q3.jsonl",
+      "bytes": 31231,
+      "sha256": "f8675da14e47bd67d0d2af81cb16bb649cdec7266eeb7b2b73d97ea67d3abd85"
+    },
+    {
+      "path": "model_price_summary_schema.json",
+      "bytes": 1962,
+      "sha256": "dc4acec8f47169b2367e5efa75dea6d7b2ca2a3aaf751b5ea7d6014e85f5e621"
+    },
+    {
+      "path": "sample_records.jsonl",
+      "bytes": 3126,
+      "sha256": "27466785c24c34a36a204eb486154d0d62d34f83e24110177850decceb5e1852"
+    },
+    {
+      "path": "dataset_schema.json",
+      "bytes": 1874,
+      "sha256": "2e2c9776c91b2dd7dacf8a4a67913a56898cd0b00b2ad65a36d03c8f8cb8e660"
+    },
+    {
+      "path": "huggingface_dataset_card.md",
+      "bytes": 2614,
+      "sha256": "432bcd48fa0764fcaf6726d23a34256f6a83d8bc3895244b476e79a27a583d86"
+    },
+    {
+      "path": "kaggle_dataset_metadata.json",
+      "bytes": 1002,
+      "sha256": "a6e585c626169d4638b806a2a474fbada3647d8724f0eb03ea0791f70bc48c78"
+    },
+    {
+      "path": "zenodo_metadata.md",
+      "bytes": 2528,
+      "sha256": "34e8667cad5fcf14819505c6b7e43596b3501c1b5310beabe38c9450c7026840"
+    }
+  ]
+}

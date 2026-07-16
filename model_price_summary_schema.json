@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reboot Hub Q3 2026 Model Price Summary Record",
+  "description": "One aircraft model-level aggregate derived from published Reboot Hub catalog configuration prices on the 2026-07-07 snapshot date.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model",
+    "source_listing_labels",
+    "source_row_count",
+    "configurations_tracked",
+    "listed_price_low_usd",
+    "listed_price_high_usd",
+    "median_listed_price_usd",
+    "snapshot_date",
+    "release_quarter",
+    "observation_unit",
+    "quality_status",
+    "source_url",
+    "methodology_note",
+    "non_affiliation_note"
+  ],
+  "properties": {
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_listing_labels": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_row_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "configurations_tracked": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "listed_price_low_usd": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.01
+    },
+    "listed_price_high_usd": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.01
+    },
+    "median_listed_price_usd": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.01
+    },
+    "snapshot_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "release_quarter": {
+      "const": "2026-Q3"
+    },
+    "observation_unit": {
+      "const": "aircraft model-level aggregate"
+    },
+    "quality_status": {
+      "const": "passed_publication_gate"
+    },
+    "source_url": {
+      "const": "https://reboot-hub.com/pages/reboot-hub-data"
+    },
+    "methodology_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "non_affiliation_note": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
   "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
   "name": "reboot-hub-dji-drone-specs-used-price-index",
-  "id": "https://doi.org/10.5281/zenodo.21246533",
+  "id": "https://doi.org/10.5281/zenodo.21246532",
   "title": "Reboot Hub DJI Drone Specs and Used Price Index: Q3 2026 Baseline",
-  "description": "A public baseline package of DJI drone model references, observed Reboot Hub used listed bundle price ranges, repair-risk context, and pre-owned inspection metadata. Listed ranges are not final sale prices.",
+  "description": "A Q3 2026 public package containing 43 aircraft model-level price aggregates that summarize 251 published Reboot Hub catalog configurations, plus example repair-risk records and inspection context. Listed prices are not inventory claims or completed-sale prices.",
   "homepage": "https://reboot-hub.com/pages/reboot-hub-data",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "created": "2026-07-07T00:00:00Z",
+  "updated": "2026-07-16T00:00:00Z",
+  "rebootHubReleaseBoundary": {
+    "publicGrain": "one row per model-level aggregate",
+    "modelAggregateCount": 43,
+    "underlyingListedConfigurationCount": 251,
+    "underlyingConfigurationRowsDistributed": false,
+    "excludedSourceRows": 2,
+    "mergedSourceRows": 1,
+    "exactVersionDoi": "10.5281/zenodo.21387578",
+    "previousArchivedVersionDoi": "10.5281/zenodo.21246533",
+    "conceptDoi": "10.5281/zenodo.21246532",
+    "releaseCandidate": false
+  },
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -50,20 +63,70 @@
   ],
   "resources": [
     {
-      "name": "sample-records",
-      "path": "sample_records.jsonl",
-      "title": "Q3 2026 baseline sample records",
-      "description": "Example model, listed-price-range, and repair-risk records for the public package.",
+      "name": "model-price-summary-2026-q3",
+      "path": "model_price_summary_2026_q3.csv",
+      "title": "Q3 2026 model-level listed-price summary",
+      "description": "Complete public table of 43 aircraft model-level aggregates summarizing 251 published Reboot Hub catalog configurations. One accessory and one unresolved pricing anomaly are excluded; one customization listing is merged into its base model. The underlying configuration rows are not included.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {"name": "model", "type": "string", "constraints": {"required": true, "unique": true}},
+          {"name": "source_listing_labels", "type": "string", "constraints": {"required": true}},
+          {"name": "source_row_count", "type": "integer", "constraints": {"required": true, "minimum": 1}},
+          {"name": "configurations_tracked", "type": "integer", "constraints": {"required": true, "minimum": 1}},
+          {"name": "listed_price_low_usd", "type": "number", "constraints": {"required": true, "minimum": 0}},
+          {"name": "listed_price_high_usd", "type": "number", "constraints": {"required": true, "minimum": 0}},
+          {"name": "median_listed_price_usd", "type": "number", "constraints": {"required": true, "minimum": 0}},
+          {"name": "snapshot_date", "type": "date", "constraints": {"required": true}},
+          {"name": "release_quarter", "type": "string", "constraints": {"required": true, "pattern": "^2026-Q3$"}},
+          {"name": "observation_unit", "type": "string", "constraints": {"required": true}},
+          {"name": "quality_status", "type": "string", "constraints": {"required": true, "pattern": "^passed_publication_gate$"}},
+          {"name": "source_url", "type": "string", "format": "uri", "constraints": {"required": true}},
+          {"name": "methodology_note", "type": "string", "constraints": {"required": true}},
+          {"name": "non_affiliation_note", "type": "string", "constraints": {"required": true}}
+        ]
+      }
+    },
+    {
+      "name": "model-price-summary-2026-q3-jsonl",
+      "path": "model_price_summary_2026_q3.jsonl",
+      "title": "Q3 2026 model-level listed-price summary in JSON Lines",
+      "description": "JSON Lines mirror of the complete 43-row public aircraft-model aggregate table.",
       "format": "jsonl",
       "mediatype": "application/x-ndjson"
     },
     {
-      "name": "record-schema",
-      "path": "dataset_schema.json",
-      "title": "JSON Schema for dataset records",
-      "description": "JSON Schema Draft 2020-12 field definitions for records in this package.",
+      "name": "model-price-summary-schema",
+      "path": "model_price_summary_schema.json",
+      "title": "JSON Schema for model-level summary records",
+      "description": "JSON Schema Draft 2020-12 definitions for the aggregate CSV and JSON Lines records.",
       "format": "json",
       "mediatype": "application/schema+json"
+    },
+    {
+      "name": "sample-records",
+      "path": "sample_records.jsonl",
+      "title": "Q3 2026 baseline sample records",
+      "description": "Four illustrative records showing the richer repair-risk record format. This file is not the complete price summary.",
+      "format": "jsonl",
+      "mediatype": "application/x-ndjson"
+    },
+    {
+      "name": "sample-record-schema",
+      "path": "dataset_schema.json",
+      "title": "JSON Schema for illustrative repair-risk records",
+      "description": "JSON Schema Draft 2020-12 field definitions for sample_records.jsonl.",
+      "format": "json",
+      "mediatype": "application/schema+json"
+    },
+    {
+      "name": "release-manifest",
+      "path": "RELEASE_MANIFEST.json",
+      "title": "Version 0.2.0 release integrity manifest",
+      "description": "Release boundary, DOI identifiers, byte sizes, and SHA-256 checksums for the archived source files.",
+      "format": "json",
+      "mediatype": "application/json"
     },
     {
       "name": "citation-metadata",

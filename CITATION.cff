@@ -1,13 +1,18 @@
 cff-version: 1.2.0
 title: "Reboot Hub DJI Drone Specs and Used Price Index"
-message: "If you use this dataset, please cite Reboot Hub using the Zenodo DOI."
+message: "If you use this evolving dataset, cite Reboot Hub using the Zenodo concept DOI; use a version DOI when exact-version reproducibility is required."
 type: dataset
 authors:
   - name: "Reboot Hub"
-date-released: "2026-07-07"
-doi: "10.5281/zenodo.21246533"
-url: "https://doi.org/10.5281/zenodo.21246533"
-abstract: "A public Reboot Hub dataset package for DJI drone model references, used listed price ranges, and pre-owned drone inspection context."
+date-released: "2026-07-16"
+doi: "10.5281/zenodo.21246532"
+url: "https://doi.org/10.5281/zenodo.21246532"
+version: "0.2.0"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21387578"
+    description: "Exact DOI for version 0.2.0"
+abstract: "A Q3 2026 public dataset containing 43 aircraft model-level listed-price aggregates that summarize 251 published Reboot Hub catalog configurations, plus illustrative repair-risk context and explicit quality exclusions."
 keywords:
   - drones
   - used drones

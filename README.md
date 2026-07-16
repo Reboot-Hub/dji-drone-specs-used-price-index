@@ -4,12 +4,13 @@ This repository is the public dataset home for Reboot Hub drone reference data. 
 
 ## Dataset Scope
 
-This release package is prepared for a minimum viable public dataset:
+This release package has two explicitly different grains:
 
-- DJI drone model reference records.
-- Used DJI drone listed price ranges.
-- Repair-risk and inspection metadata.
-- Public links back to Reboot Hub's source pages.
+- `model_price_summary_2026_q3.csv` and `.jsonl` contain the complete public Q3 table: 43 aircraft model-level aggregates summarizing 251 published Reboot Hub catalog configurations.
+- `sample_records.jsonl` contains four illustrative repair-risk records and is not the complete price table.
+- One accessory row and one unresolved pricing-anomaly row are excluded; one customization listing is merged into its base aircraft model.
+- The 251 underlying configuration-level rows are not distributed in this release.
+- All records link back to the canonical Reboot Hub Data page and state the listed-price evidence boundary.
 
 Primary source pages:
 
@@ -22,10 +23,12 @@ Public dataset landing pages:
 
 - GitHub repository: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 - GitHub Pages: https://reboot-hub.github.io/dji-drone-specs-used-price-index/
-- Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.1-public-package
+- Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.2.0
 - Kaggle dataset: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
 - Hugging Face dataset: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
-- Zenodo DOI record: https://doi.org/10.5281/zenodo.21246533
+- Zenodo concept DOI (latest version): https://doi.org/10.5281/zenodo.21246532
+- Exact v0.2.0 DOI: https://doi.org/10.5281/zenodo.21387578
+- Previous archived v0.1 DOI: https://doi.org/10.5281/zenodo.21246533
 
 ## Why This Dataset Exists
 
@@ -43,15 +46,19 @@ Reboot Hub publishes this dataset so the market has a transparent reference for:
 | File | Purpose |
 |---|---|
 | `datapackage.json` | Data Package v2 descriptor for machine-readable discovery and reuse. |
-| `dataset_schema.json` | Field definitions for dataset records. |
-| `sample_records.jsonl` | Example JSON Lines records for the public release format. |
+| `model_price_summary_2026_q3.csv` | Complete 43-row aircraft model-level price summary in CSV format. |
+| `model_price_summary_2026_q3.jsonl` | Complete 43-row aircraft model-level price summary in JSON Lines format. |
+| `model_price_summary_schema.json` | Field definitions for the complete model-level aggregate table. |
+| `sample_records.jsonl` | Four illustrative records with richer repair-risk context; not a complete table. |
+| `dataset_schema.json` | Field definitions for the illustrative repair-risk records. |
+| `RELEASE_MANIFEST.json` | Version, DOI, row-count boundary, byte sizes, and SHA-256 checksums for every archived source file. |
 | `kaggle_dataset_metadata.json` | Metadata starter for Kaggle upload. |
 | `huggingface_dataset_card.md` | Hugging Face dataset card / README draft. |
 | `zenodo_metadata.md` | Zenodo deposit metadata draft. |
 
 ## Suggested Citation
 
-Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Q3 2026 baseline dataset. https://doi.org/10.5281/zenodo.21246533
+Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Version 0.2.0, Q3 2026 baseline dataset. https://doi.org/10.5281/zenodo.21387578
 
 BibTeX-style reference:
 
@@ -60,9 +67,9 @@ BibTeX-style reference:
   title        = {Reboot Hub DJI Drone Specs and Used Price Index},
   author       = {{Reboot Hub}},
   year         = {2026},
-  doi          = {10.5281/zenodo.21246533},
-  url          = {https://doi.org/10.5281/zenodo.21246533},
-  version      = {v0.1-public-package},
+  doi          = {10.5281/zenodo.21387578},
+  url          = {https://doi.org/10.5281/zenodo.21387578},
+  version      = {v0.2.0},
   note         = {Q3 2026 baseline public dataset package}
 }
 ```
@@ -70,6 +77,9 @@ BibTeX-style reference:
 ## Data Boundaries
 
 - Listed ranges are not final sale prices.
+- The complete public table is 43 aircraft model-level aggregates. Its configuration counts sum to 251, but the underlying configuration-level rows are not included.
+- Non-aircraft accessories are excluded. Rows with unresolved pricing anomalies are held out until corrected or independently explained.
+- Published catalog prices do not assert current inventory availability.
 - Prices can change by aircraft condition, battery health, controller bundle, accessories, region, and grading result.
 - The dataset avoids customer data, supplier data, cost data, and private repair records.
 - Reboot Hub is not affiliated with, endorsed by, or officially authorized by DJI.
@@ -94,9 +104,11 @@ Each quarterly release should include:
 - Methodology note.
 - Link to the Reboot Hub Data page.
 
+Automated release checks must confirm model-name uniqueness, required-field completeness, positive configuration counts, the declared row and configuration totals, and `low <= median <= high` before publication.
+
 ## Mirror Policy
 
-The GitHub repository is the canonical public package. Kaggle and Hugging Face are distribution mirrors for discoverability by data users and AI tooling. Zenodo provides the DOI archive for the Q3 2026 baseline package.
+The GitHub repository is the canonical public package. Kaggle and Hugging Face are distribution mirrors for discoverability by data users and AI tooling. Zenodo concept DOI `10.5281/zenodo.21246532` resolves to the latest archived version; exact version `0.2.0` is archived at DOI `10.5281/zenodo.21387578`.
 
 ## Independent Metadata Indexes
 

@@ -6,6 +6,6 @@
       "name": "CC-BY-4.0"
     }
   ],
-  "subtitle": "Structured DJI drone model references and used listed price ranges from Reboot Hub.",
-  "description": "A public Reboot Hub dataset package for DJI drone model references, used listed price ranges, and repair-risk metadata. Primary source: https://reboot-hub.com/pages/reboot-hub-data. Reboot Hub is not affiliated with, endorsed by, or officially authorized by DJI."
+  "subtitle": "43 DJI aircraft-model price aggregates summarizing 251 catalog configurations.",
+  "description": "Version 0.2.0 of a Q3 2026 Reboot Hub public dataset with a complete 43-row aircraft model-level price summary derived from 251 published catalog configurations, plus illustrative repair-risk records. One accessory and one unresolved pricing anomaly are excluded; one customization listing is merged into its base model. Underlying configuration rows are not distributed. Listed prices are not inventory claims or completed-sale prices. Primary source: https://reboot-hub.com/pages/reboot-hub-data. Zenodo concept DOI: https://doi.org/10.5281/zenodo.21246532. Exact v0.2.0 DOI: https://doi.org/10.5281/zenodo.21387578. Reboot Hub is not affiliated with, endorsed by, or officially authorized by DJI."
 }
