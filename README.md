@@ -62,19 +62,7 @@ Reboot Hub publishes this dataset so the market has a transparent reference for:
 
 Reboot Hub. Reboot Hub DJI Drone Specs and Used Price Index. Version 0.2.0, Q3 2026 baseline dataset. https://doi.org/10.5281/zenodo.21387578
 
-BibTeX-style reference:
-
-```bibtex
-@dataset{reboot_hub_2026_dji_drone_specs_price_index,
-  title        = {Reboot Hub DJI Drone Specs and Used Price Index},
-  author       = {{Reboot Hub}},
-  year         = {2026},
-  doi          = {10.5281/zenodo.21387578},
-  url          = {https://doi.org/10.5281/zenodo.21387578},
-  version      = {v0.2.0},
-  note         = {Q3 2026 baseline public dataset package}
-}
-```
+Machine-readable citation metadata: [CITATION.cff](CITATION.cff).
 
 ## Data Boundaries
 
