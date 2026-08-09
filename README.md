@@ -23,6 +23,7 @@ Public dataset landing pages:
 
 - GitHub repository: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 - GitHub Pages: https://reboot-hub.github.io/dji-drone-specs-used-price-index/
+- Technical documentation: https://reboot-hub-drone-data.pages.dev/
 - Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.2.0
 - Kaggle dataset: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
 - Hugging Face dataset: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
