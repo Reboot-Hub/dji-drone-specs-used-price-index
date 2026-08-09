@@ -21,6 +21,7 @@ DOI.
 Public mirrors
 --------------
 
+* `Technical documentation <https://reboot-hub-drone-data.pages.dev/>`_
 * `Kaggle <https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index>`_
 * `Hugging Face Datasets <https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index>`_
 * `Zenodo version 0.2.0 <https://zenodo.org/records/21387578>`_
