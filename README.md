@@ -26,6 +26,7 @@ Public dataset landing pages:
 - Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.2.0
 - Kaggle dataset: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
 - Hugging Face dataset: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
+- DataHub dataset: https://datahub.io/reboot-hub/dji-drone-specs-used-price-index
 - Zenodo concept DOI (latest version): https://doi.org/10.5281/zenodo.21246532
 - Exact v0.2.0 DOI: https://doi.org/10.5281/zenodo.21387578
 - Previous archived v0.1 DOI: https://doi.org/10.5281/zenodo.21246533
@@ -94,7 +95,7 @@ Each quarterly release should include:
 - Methodology note.
 - Link to the Reboot Hub Data page.
 
-Automated release checks must confirm model-name uniqueness, required-field completeness, positive configuration counts, the declared row and configuration totals, and `low <= median <= high` before publication.
+Automated release checks must confirm model-name uniqueness, required-field completeness, positive configuration counts, the declared row and configuration totals, and that every low value is less than or equal to its median value and every median value is less than or equal to its high value before publication.
 
 ## Mirror Policy
 
