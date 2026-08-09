@@ -26,6 +26,7 @@ Public dataset landing pages:
 - Technical documentation: https://reboot-hub-drone-data.pages.dev/
 - Versioned release: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.2.0
 - Kaggle dataset: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
+- Kaggle analysis notebook: https://www.kaggle.com/code/reboothub/dji-listed-price-data-audit-q3-2026
 - Hugging Face dataset: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
 - DataHub dataset: https://datahub.io/reboot-hub/dji-drone-specs-used-price-index
 - Zenodo concept DOI (latest version): https://doi.org/10.5281/zenodo.21246532
@@ -102,9 +103,8 @@ Automated release checks must confirm model-name uniqueness, required-field comp
 
 The GitHub repository is the canonical public package. Kaggle and Hugging Face are distribution mirrors for discoverability by data users and AI tooling. Zenodo concept DOI `10.5281/zenodo.21246532` resolves to the latest archived version; exact version `0.2.0` is archived at DOI `10.5281/zenodo.21387578`.
 
-## Independent Metadata Indexes
+## Machine-Readable Metadata and Preservation
 
-- DataCite v0.2.0 DOI metadata: https://api.datacite.org/dois/10.5281/zenodo.21387578
-- OpenAIRE v0.2.0 dataset record: https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.21387578
-- OpenAlex previous v0.1 dataset record: https://openalex.org/W7167590697
-- Wayback snapshot of the canonical methodology page: https://web.archive.org/web/20260716135700/https://reboot-hub.com/pages/reboot-hub-data
+- DataCite v0.2.0 DOI metadata (JSON): https://api.datacite.org/dois/10.5281/zenodo.21387578
+- OpenAlex v0.2.0 dataset metadata (JSON): https://api.openalex.org/works/W7169170176
+- Wayback snapshot of the canonical methodology page (preservation copy, not an independent endorsement): https://web.archive.org/web/20260716135700/https://reboot-hub.com/pages/reboot-hub-data
