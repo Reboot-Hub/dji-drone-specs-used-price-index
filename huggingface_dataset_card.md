@@ -13,6 +13,11 @@ tags:
 - electronics
 size_categories:
 - n<1K
+configs:
+- config_name: default
+  data_files:
+  - split: train
+    path: model_price_summary_2026_q3.csv
 ---
 
 # Reboot Hub DJI Drone Specs and Used Price Index
@@ -26,6 +31,15 @@ This dataset provides a complete public Q3 2026 table of 43 aircraft model-level
 Primary source page:
 
 https://reboot-hub.com/pages/reboot-hub-data
+
+Technical documentation:
+
+https://reboot-hub-drone-data.pages.dev/
+
+Related public references:
+
+- Drone Wiki: https://reboot-hub.com/pages/drone-wiki
+- Pre-owned drone grading standard: https://reboot-hub.com/pages/drone-grading-standard
 
 ## Intended Uses
 
