@@ -93,8 +93,10 @@ https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
 
 ## Public Dataset Mirrors
 
+- Technical documentation: https://reboot-hub-drone-data.pages.dev/
 - Kaggle: https://www.kaggle.com/datasets/reboothub/dji-drone-specs-used-price-index
 - Hugging Face: https://huggingface.co/datasets/Thomas0229/reboot-hub-dji-drone-specs-used-price-index
+- DataHub: https://datahub.io/reboot-hub/dji-drone-specs-used-price-index
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.21246532
 - Exact v0.2.0 DOI: https://doi.org/10.5281/zenodo.21387578
 - Previous archived v0.1 DOI: https://doi.org/10.5281/zenodo.21246533
