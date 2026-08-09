@@ -1,0 +1,46 @@
+:root {
+  --rh-black: #101114;
+  --rh-red: #ef3139;
+  --rh-border: #d9dde5;
+  --rh-soft: #f5f7fa;
+}
+
+body {
+  color: var(--rh-black);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+div.document {
+  max-width: 1160px;
+}
+
+div.body h1,
+div.body h2,
+div.body h3 {
+  color: var(--rh-black);
+  letter-spacing: 0;
+}
+
+div.body h1 {
+  border-top: 4px solid var(--rh-red);
+  padding-top: 18px;
+}
+
+div.body a,
+div.sphinxsidebar a {
+  color: #b81720;
+}
+
+div.body code,
+div.body tt {
+  background: var(--rh-soft);
+  border: 1px solid var(--rh-border);
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+div.sphinxsidebarwrapper {
+  border-left: 3px solid var(--rh-red);
+  padding-left: 18px;
+}
