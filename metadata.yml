@@ -1,0 +1,45 @@
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: Reboot Hub Used DJI Drone Price Data - Q3 2026 Analysis Resource
+description: >-
+  An openly licensed higher-education data resource for examining listed-price
+  ranges, bundle effects, evidence boundaries, and reproducible market-data
+  analysis. The public package contains 43 DJI aircraft model-level aggregates
+  summarizing 251 published Reboot Hub catalog configurations, together with a
+  documented CSV schema and an executed analysis notebook. Listed prices are
+  not transaction prices or market-wide valuations, and the resource states
+  that limitation explicitly.
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://reboot-hub.com/pages/reboot-hub-data
+url: https://reboot-hub.com/pages/reboot-hub-data
+creator:
+  - name: Reboot Hub
+    id: https://reboot-hub.com/pages/reboot-hub-about-us
+    type: Organization
+publisher:
+  - name: Reboot Hub
+    id: https://reboot-hub.com/
+    type: Organization
+keywords:
+  - DJI drones
+  - used drone prices
+  - listed-price analysis
+  - data quality
+  - market data
+  - reproducible analysis
+  - UAV lifecycle
+inLanguage:
+  - en
+learningResourceType:
+  - https://w3id.org/kim/hcrt/data
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-07-16'
+dateModified: '2026-08-12'
+isBasedOn:
+  - https://doi.org/10.5281/zenodo.21387578
+  - https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
+associatedMedia:
+  - https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/model_price_summary_2026_q3.csv
+  - https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/notebooks/q3-2026-listed-price-range-analysis.ipynb
