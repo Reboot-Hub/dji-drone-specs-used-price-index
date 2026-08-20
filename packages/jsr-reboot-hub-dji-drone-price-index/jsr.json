@@ -1,0 +1,6 @@
+{
+  "name": "@reboot-hub/dji-drone-price-index",
+  "version": "0.2.0",
+  "exports": "./mod.ts",
+  "license": "CC-BY-4.0"
+}
