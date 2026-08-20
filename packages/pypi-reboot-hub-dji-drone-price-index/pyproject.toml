@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reboot-hub-dji-drone-price-index"
+version = "0.2.0"
+description = "Public Q3 2026 model-level used DJI listed-price aggregates from Reboot Hub."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "CC-BY-4.0" }
+authors = [{ name = "Reboot Hub" }]
+keywords = ["drone", "DJI", "used-drone", "price-index", "open-data"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Creative Commons Attribution License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://reboot-hub.com/pages/reboot-hub-data"
+Documentation = "https://reboot-hub.com/pages/reboot-hub-data"
+Repository = "https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/tree/main/packages/pypi-reboot-hub-dji-drone-price-index"
+Source-data = "https://reboot-hub.com/pages/reboot-hub-data"
+Archive = "https://doi.org/10.5281/zenodo.21387578"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+reboot_hub_drone_data = ["data/*.jsonl"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
