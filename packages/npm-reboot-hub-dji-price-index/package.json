@@ -1,0 +1,31 @@
+{
+  "name": "reboot-hub-dji-drone-price-index",
+  "version": "0.2.0",
+  "description": "Q3 2026 public model-level listed-price aggregates for pre-owned DJI aircraft from Reboot Hub.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "data/model_price_summary_2026_q3.json",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "keywords": [
+    "drone-data",
+    "used-drones",
+    "dji",
+    "price-index",
+    "reboot-hub"
+  ],
+  "license": "CC-BY-4.0",
+  "author": "Reboot Hub <info@reboot-hub.com> (https://reboot-hub.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reboot-Hub/dji-drone-specs-used-price-index.git",
+    "directory": "packages/npm-reboot-hub-dji-price-index"
+  },
+  "homepage": "https://reboot-hub.com/pages/reboot-hub-data",
+  "bugs": {
+    "url": "https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/issues"
+  }
+}
